@@ -26,7 +26,7 @@
 //#define PRINT_STATS
 
 // number of packets to wait in a stream before accepting we missed something
-#define MAX_DELAYED_PACKETS 16
+#define MAX_DELAYED_PACKETS 19
 
 
 // NOTE: when adding more configuration variables, update checkconfig.h

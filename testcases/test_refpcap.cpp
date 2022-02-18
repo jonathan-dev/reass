@@ -1,7 +1,7 @@
 #include <boost/test/unit_test.hpp>
 #include "pcap_reader.h"
 #include "tcp_reassembler.h"
-#include <boost/uuid/sha1.hpp>
+#include <boost/uuid/detail/sha1.hpp>
 #include <map>
 
 using boost::uuids::detail::sha1;
