@@ -29,7 +29,7 @@ SET(HEADERS
 SET(HELPERS
 		helpers/misc.h
 		helpers/timeval_helpers.h)
-add_library(libreass ${SOURCES})
+add_library(libreass PUBLIC ${SOURCES})
 set_target_properties(libreass PROPERTIES OUTPUT_NAME "reass")
 target_link_libraries(libreass pcap)
 
