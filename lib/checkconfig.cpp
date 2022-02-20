@@ -16,8 +16,8 @@ namespace reass_test_config
 
 	test_config_t::test_config_t(const char linkflags[])
 	{
-		// if (strcmp(linkflags, libraryflags) != 0)
-		//	throw std::runtime_error("reass built with different -DDEBUG flag or config.h contents");
+		if (strcmp(linkflags, libraryflags) != 0)
+			throw std::runtime_error("reass built with different -DDEBUG flag or config.h contents");
 	}
 }
 
